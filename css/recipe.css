@@ -2,6 +2,17 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul li {
+li {
     list-style-position: inside;
+    margin-top: 10px;
+}
+
+img{
+    height: auto;
+    width: 500px;
+}
+
+ul, ol{
+    background-color: rgb(233, 181, 85);
+    border: 10px;
 }
