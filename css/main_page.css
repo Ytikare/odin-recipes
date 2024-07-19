@@ -2,6 +2,29 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+ul{
+    background-color: rgb(253, 209, 126);
+    border-radius: 10px;
+    border: 2px solid rgb(182, 150, 91);
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+}
+
 ul li {
-    list-style-position: inside;
+    display: block;
+    padding: 5px 10px;
+    margin:  5px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:teal;
+    display: block;
+    border: 2px solid rgb(182, 150, 91);
+    border-radius: 5px;
+    height: 20px;
+    width: auto;
+    padding: 8px 10px;
 }
